@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    /* padding-top: auto;
+    padding-bottom: auto; */
+    font-family: 'Avenir';
+}
+
+h1 {
+    letter-spacing: 18px;
+    text-align: center;
+    word-wrap: normal;
+    white-space: normal;
+}
+
+small {
+    font-size: 16px;
+    letter-spacing: 10px;
+}
+
+.container-centered {
+    position: fixed;
+    top: 50%;
+    /* bring your own prefixes */
+    transform: translate(0%, -55%);
+}
+      
+.full-width {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    max-width: 100%;
+    width: auto\9;
+    height: auto;
+}
+
+.button {
+    background-color:white;
+    border: none;
+    color: black;
+    padding: 10px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    letter-spacing: 8px;
+    font-style: italic;
+}
+
+.button:hover {
+    color: transparent;
+    text-decoration: none;
+}
+
+.gallery {
+    margin-top: 18px;
+}
+/* 
+.gallery:hover {
+    opacity:0;
+    filter:alpha(opacity=0);
+} */
+
+a {
+    color: black;
+    padding-bottom: 0%;
+}
+
+a:hover{
+    color: transparent;
+    text-decoration: none;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0.6%;
+    padding-right: 0.6%;
+}
+
+.col-social-padding {
+    width: 38%;
+}
+
+.col-social {
+    width: 8%;
+}
+
+.col-sm {
+    text-align: center;
+}
+
+.col-g {
+    flex: 50%;
+    max-width: 50%;
+    text-align: center;
+    padding-left: 0.6%;
+    padding-right: 0.6%;
+    padding-top: 0%;
+    padding-bottom: 0.6%;
+}
+
+.col-full {
+    flex: 100%;
+    max-width: 100%;
+    text-align: center;
+    padding-left: 0.6%;
+    padding-right: 0.6%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+video {
+    max-width: 100%;
+}
+
+p {
+    text-align: center;
+}
+
+.cover-logo {
+    background-color:white;
+    position: relative;
+    border: none;
+    top: -700px;
+    left: none;
+    z-index: 2000;
+    width: 150px;
+    height: 150px;
+}
+
+.flip-holder {
+    background-color:white;
+    border: none;
+    z-index: -3;
+    width: 100%;
+    height: 600px;
+    padding-bottom: 5%;
+}
+
+.portrait {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    max-width: 40%;
+    width: auto\9;
+    height: auto;
+}
+
+.form-control {
+    color: black;
+    border: 2px solid black;
+    margin-left: 50%;
+    width: 50%;
+    transform: translate(-50%, 0%);
+    text-align: center;
+    height: 40px;
+}
