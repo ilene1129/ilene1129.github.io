@@ -26,9 +26,9 @@ small {
       
 .full-width {
     position: relative;
-    left: 50%;
-    transform: translate(-50%, 0%);
-    max-width: 100%;
+    left: 25%;
+    /* transform: translate(-50%, 0%); */
+    max-width: 50%;
     width: auto\9;
     height: auto;
 }
