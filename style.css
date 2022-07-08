@@ -18,10 +18,12 @@ small {
 }
 
 .container-centered {
-    position: fixed;
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    /* position: fixed;
     top: 50%;
-    /* bring your own prefixes */
-    transform: translate(0%, -55%);
+    transform: translate(0%, -55%); */
 }
       
 .full-width {
@@ -29,6 +31,14 @@ small {
     left: 25%;
     /* transform: translate(-50%, 0%); */
     max-width: 50%;
+    width: auto\9;
+    height: auto;
+}
+
+.nametag {
+    position: relative;
+    /* transform: translate(-50%, 0%); */
+    max-width: 100%;
     width: auto\9;
     height: auto;
 }
