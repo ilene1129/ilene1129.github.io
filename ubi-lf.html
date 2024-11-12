@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>ilene / animation research projects</title>
+  </head>
+  <body>
+    <h1 style="padding-top: 5%"><small><em><a href = "index.html">home/</a><a href = "code.html">code/ </a></em></small>animation research projects</h1>
+    <p style="padding-top: 2%; padding-bottom: 0%; text-align: center; margin: 0.5%">automatic animation tagging</p>
+    <p style="text-align: center; font-size: 12px;">python / hydra / motionbuilder / deep learning</p>
+    <p style="padding-left: 5%; padding-right: 5%;">
+      This system consists of two components: the core Hydra app that computes tags for the motion file inputs, and a MotionBuilder plug-in that visualizes the computed tags.
+    </p>
+    <p style="padding-left: 5%; padding-right: 5%;">
+      The Hydra app takes BVH input and outputs frame-level (e.g., gaze direction) and sequence-level (e.g., action type, emotion) tags. The tags are calculated using a mix of algorithmic and deep learning techniques.
+    </p>
+
+    <!-- <img src="images/mom.gif" class="full-width" alt="mom gif">  
+    <p style="padding-top: 1%; padding-bottom: 5%; text-align: center; margin: 0.5%; font-size: 12px;">gaze direction and dominant hand visualizations (3d view).</a></em></p>
+    -->
+    <p style="padding-left: 5%; padding-right: 5%;">
+      The MotionBuilder plug-in allows the user to load in the BVH, then visualize the tags calculated for it in 3D view as well as in a timeline view. For example, calculated gaze direction is visualized as a lookAt in 3D space, with a camera attached to the character's head to confirm the calculated values. 
+      Foot contact and trajectories are respectively visualized as color-coded markers (like footprints) and splines in 3D space. Foot contacts are also visualized as color-coded time spans in an interactive timeline editor that allows users to view, edit, load, and save labels.
+    </p>
+    <!-- <img src="images/mom.gif" class="full-width" alt="mom gif">  
+    <p style="padding-top: 1%; padding-bottom: 5%; text-align: center; margin: 0.5%; font-size: 12px;">foot contact and trajectory visualizations (3d and timeline view).</a></em></p>
+    -->
+    <br>
+
+    <p style="padding-top: 2%; padding-bottom: 0%; text-align: center; margin: 0.5%">animation toolkit</p>
+    <p style="text-align: center; font-size: 12px;">python / motionbuilder</p>
+    <p style="padding-left: 5%; padding-right: 5%;">
+      This system provides a CLI interface for users to allows users to retarget animations and convert between file types (smpl/fbx/bvh), in batches.
+    </p>
+    <br>
+
+    <p style="padding-top: 2%; padding-bottom: 0%; text-align: center; margin: 0.5%">non-humanoid animation generation</p>
+    <p style="text-align: center; font-size: 12px;">python / blender / reinforcement learning</p>
+    <p style="padding-left: 5%; padding-right: 5%;">
+      This Blender plug-in takes keyframes as input and populates Blender with generated physics-based trajectories that adhere to the given frames.
+      On the back end, the trajectories are simulated then scored based on their adherence to the keyframe input. The top scores are returned to the user.
+    </p>
+    <br>
+
+    <p style="padding-top: 2%; padding-bottom: 0%; text-align: center; margin: 0.5%">wildlife motion matching data pipeline</p>
+    <p style="text-align: center; font-size: 12px;">python / houdini / motionbuilder</p>
+    <p style="padding-left: 5%; padding-right: 5%;">
+      I designed and developed a system that takes sparse wildlife locomotion animation files (i.e., if mocap is not available and/or handmade animations are insufficient) as input to output an animation database suitable for motion matching.
+    </p>
+    <p style="padding-left: 5%; padding-right: 5%;">
+      This multi-stage process involves cleaning, stitching, augmenting, validating using Python, Houdini, and MotionBuilder.
+    </p>
+    <br>
+
+    <p style="text-align: center; font-size: 12px;">Placeholder image from NatNet.</p>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
